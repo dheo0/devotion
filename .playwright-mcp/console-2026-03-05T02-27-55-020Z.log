@@ -1,0 +1,346 @@
+[  432864ms] [WARNING] You are loading @emotion/react when it is already loaded. Running multiple instances may cause problems. This can happen if multiple versions are used, or if multiple builds of the same version are used. @ http://localhost:5173/node_modules/.vite/deps/chunk-3E7BZ5YZ.js?v=fd31eaaa:540
+[  432894ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=fd31eaaa:135
+[  432894ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=fd31eaaa:135
+[  432895ms] TypeError: Cannot read properties of null (reading 'useContext')
+    at Object.useContext (http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=fd31eaaa:1062:29)
+    at useDefaultProps (http://localhost:5173/node_modules/.vite/deps/chunk-6RAODHN4.js?v=fd31eaaa:4000:23)
+    at useDefaultProps2 (http://localhost:5173/node_modules/.vite/deps/chunk-LIZY2KLE.js?v=fd31eaaa:40:10)
+    at SvgIcon2 (http://localhost:5173/node_modules/.vite/deps/chunk-A33WAEKK.js?v=fd31eaaa:158:17)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:11596:26)
+    at updateForwardRef (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:14373:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:15994:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:3705:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:3739:39)
+[  432901ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=fd31eaaa:135
+[  432901ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=fd31eaaa:135
+[  432901ms] TypeError: Cannot read properties of null (reading 'useContext')
+    at Object.useContext (http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=fd31eaaa:1062:29)
+    at useDefaultProps (http://localhost:5173/node_modules/.vite/deps/chunk-6RAODHN4.js?v=fd31eaaa:4000:23)
+    at useDefaultProps2 (http://localhost:5173/node_modules/.vite/deps/chunk-LIZY2KLE.js?v=fd31eaaa:40:10)
+    at SvgIcon2 (http://localhost:5173/node_modules/.vite/deps/chunk-A33WAEKK.js?v=fd31eaaa:158:17)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:11596:26)
+    at updateForwardRef (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:14373:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:15994:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:3705:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:3739:39)
+[  432902ms] [ERROR] The above error occurred in the <ForwardRef(SvgIcon2)> component:
+
+    at SvgIcon2 (http://localhost:5173/node_modules/.vite/deps/chunk-A33WAEKK.js?v=fd31eaaa:158:17)
+    at AddIcon
+    at button
+    at http://localhost:5173/node_modules/.vite/deps/chunk-PGFARDM7.js?v=43c452de:683:45
+    at ButtonBase2 (http://localhost:5173/node_modules/.vite/deps/chunk-DDWWP4CC.js?v=43c452de:578:17)
+    at http://localhost:5173/node_modules/.vite/deps/chunk-PGFARDM7.js?v=43c452de:683:45
+    at IconButton2 (http://localhost:5173/node_modules/.vite/deps/chunk-AMRDEXQO.js?v=43c452de:208:17)
+    at div
+    at div
+    at div
+    at http://localhost:5173/node_modules/.vite/deps/chunk-PGFARDM7.js?v=43c452de:683:45
+    at Grid2 (http://localhost:5173/node_modules/.vite/deps/chunk-VHMV3NQR.js?v=43c452de:6001:24)
+    at form
+    at DevotionForm (http://localhost:5173/src/components/content/DevotionForm.tsx?t=1772678107296:39:32)
+    at div
+    at http://localhost:5173/node_modules/.vite/deps/chunk-PGFARDM7.js?v=43c452de:683:45
+    at Paper2 (http://localhost:5173/node_modules/.vite/deps/chunk-S4SVJOMB.js?v=43c452de:146:17)
+    at div
+    at ContentPage (http://localhost:5173/src/pages/ContentPage.tsx:35:20)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=43c452de:6355:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=43c452de:7143:26)
+    at main
+    at div
+    at AppLayout
+    at ProtectedRoute (http://localhost:5173/src/components/common/ProtectedRoute.tsx:20:34)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=43c452de:6355:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=43c452de:7222:3)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=43c452de:7152:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=43c452de:10363:3)
+    at App (http://localhost:5173/src/App.tsx:30:20)
+    at DefaultPropsProvider (http://localhost:5173/node_modules/.vite/deps/chunk-VHMV3NQR.js?v=43c452de:3956:3)
+    at RtlProvider (http://localhost:5173/node_modules/.vite/deps/chunk-VHMV3NQR.js?v=43c452de:3932:3)
+    at ThemeProvider (http://localhost:5173/node_modules/.vite/deps/chunk-VHMV3NQR.js?v=43c452de:3888:5)
+    at ThemeProvider2 (http://localhost:5173/node_modules/.vite/deps/chunk-VHMV3NQR.js?v=43c452de:4108:5)
+    at ThemeProviderNoVars (http://localhost:5173/node_modules/.vite/deps/chunk-7BLEEFVM.js?v=43c452de:277:10)
+    at ThemeProvider (http://localhost:5173/node_modules/.vite/deps/chunk-7BLEEFVM.js?v=43c452de:425:3)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:14079
+[  432904ms] TypeError: Cannot read properties of null (reading 'useContext')
+    at Object.useContext (http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=fd31eaaa:1062:29)
+    at useDefaultProps (http://localhost:5173/node_modules/.vite/deps/chunk-6RAODHN4.js?v=fd31eaaa:4000:23)
+    at useDefaultProps2 (http://localhost:5173/node_modules/.vite/deps/chunk-LIZY2KLE.js?v=fd31eaaa:40:10)
+    at SvgIcon2 (http://localhost:5173/node_modules/.vite/deps/chunk-A33WAEKK.js?v=fd31eaaa:158:17)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:11596:26)
+    at updateForwardRef (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:14373:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:15994:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:19806:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:19251:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=43c452de:19190:13)
+[  675148ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/todos?yearMonth=2026-02:0
+[  865017ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/auth/login:0
+[  915753ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[  916756ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[  917762ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[  918767ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[  919771ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[  920775ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[  921778ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[  933284ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/auth/login:0
+[ 1036789ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/auth/login:0
+[ 1044712ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/auth/login:0
+[ 1370706ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1388281ms] [ERROR] [vite] Error: supabaseKey is required.
+    at new SupabaseClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=358cefaa:11453:29)
+    at createClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=358cefaa:11631:10)
+    at http://localhost:5173/src/utils/supabase.ts:4:25 @ http://localhost:5173/@vite/client:881
+[ 1388282ms] [ERROR] [vite] Failed to reload /src/pages/LoginPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:881
+[ 1388282ms] [ERROR] [vite] Error: supabaseKey is required.
+    at new SupabaseClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=358cefaa:11453:29)
+    at createClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=358cefaa:11631:10)
+    at http://localhost:5173/src/utils/supabase.ts:4:25 @ http://localhost:5173/@vite/client:881
+[ 1388282ms] [ERROR] [vite] Failed to reload /src/pages/SignupPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:881
+[ 1388283ms] [ERROR] [vite] Error: supabaseKey is required.
+    at new SupabaseClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=358cefaa:11453:29)
+    at createClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=358cefaa:11631:10)
+    at http://localhost:5173/src/utils/supabase.ts:4:25 @ http://localhost:5173/@vite/client:881
+[ 1388283ms] [ERROR] [vite] Failed to reload /src/App.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:881
+[ 1388283ms] [ERROR] [vite] Error: supabaseKey is required.
+    at new SupabaseClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=358cefaa:11453:29)
+    at createClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=358cefaa:11631:10)
+    at http://localhost:5173/src/utils/supabase.ts:4:25 @ http://localhost:5173/@vite/client:881
+[ 1388283ms] [ERROR] [vite] Failed to reload /src/components/layout/NavigationBar.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:881
+[ 1388283ms] [ERROR] [vite] Error: supabaseKey is required.
+    at new SupabaseClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=358cefaa:11453:29)
+    at createClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=358cefaa:11631:10)
+    at http://localhost:5173/src/utils/supabase.ts:4:25 @ http://localhost:5173/@vite/client:881
+[ 1388283ms] [ERROR] [vite] Failed to reload /src/components/common/ProtectedRoute.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:881
+[ 1388716ms] Error: supabaseKey is required.
+    at new SupabaseClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=6da1203c:11453:29)
+    at createClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=6da1203c:11631:10)
+    at http://localhost:5173/src/utils/supabase.ts:4:25
+[ 1550928ms] Error: supabaseKey is required.
+    at new SupabaseClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=6da1203c:11453:29)
+    at createClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=6da1203c:11631:10)
+    at http://localhost:5173/src/utils/supabase.ts:4:25
+[ 1576712ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1577719ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1578725ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1579732ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1580749ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1581758ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1582765ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1583770ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1585425ms] Error: supabaseKey is required.
+    at new SupabaseClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=6da1203c:11453:29)
+    at createClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=6da1203c:11631:10)
+    at http://localhost:5173/src/utils/supabase.ts:4:25
+[ 1588073ms] Error: supabaseKey is required.
+    at new SupabaseClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=6da1203c:11453:29)
+    at createClient (http://localhost:5173/node_modules/.vite/deps/@supabase_supabase-js.js?v=6da1203c:11631:10)
+    at http://localhost:5173/src/utils/supabase.ts:4:25
+[ 1698067ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1803296ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/todos?yearMonth=2026-03:0
+[ 1823020ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/todos?yearMonth=2026-02:0
+[ 1916809ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1917815ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1918823ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1919828ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1920835ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 1922485ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/todos?yearMonth=2026-03:0
+[ 1922485ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/todos?yearMonth=2026-03:0
+[ 1962148ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/todos?yearMonth=2026-02:0
+[ 1968506ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/todos?yearMonth=2026-02:0
+[ 2071654ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2072660ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2073668ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2074676ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2076337ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/todos?yearMonth=2026-03:0
+[ 2076338ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/todos?yearMonth=2026-03:0
+[ 2149146ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/api/v1/todos:0
+[ 2149162ms] AxiosError: Request failed with status code 500
+    at settle (http://localhost:5173/node_modules/.vite/deps/axios.js?v=6da1203c:1319:7)
+    at XMLHttpRequest.onloadend (http://localhost:5173/node_modules/.vite/deps/axios.js?v=6da1203c:1682:7)
+    at Axios.request (http://localhost:5173/node_modules/.vite/deps/axios.js?v=6da1203c:2328:41)
+    at async create (http://localhost:5173/src/stores/useDevotionStore.ts:61:11)
+    at async handleSave (http://localhost:5173/src/pages/ContentPage.tsx:51:23)
+    at async handleSubmit (http://localhost:5173/src/components/content/DevotionForm.tsx:67:5)
+[ 2327957ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2328963ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2329970ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2330981ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2331987ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2332994ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2334007ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2352831ms] [ERROR] Failed to load resource: the server responded with a status of 409 (Conflict) @ http://localhost:5173/api/v1/todos:0
+[ 2455406ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/components/content/DevotionForm.tsx?t=1772680130401:0
+[ 2455407ms] [ERROR] [vite] Failed to reload /src/components/content/DevotionForm.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:881
+[ 2459264ms] [WARNING] You are loading @emotion/react when it is already loaded. Running multiple instances may cause problems. This can happen if multiple versions are used, or if multiple builds of the same version are used. @ http://localhost:5173/node_modules/.vite/deps/chunk-FSPDMDTJ.js?v=246bc9f4:540
+[ 2459291ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=246bc9f4:135
+[ 2459292ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=246bc9f4:135
+[ 2459292ms] TypeError: Cannot read properties of null (reading 'useContext')
+    at Object.useContext (http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=246bc9f4:1062:29)
+    at useDefaultProps (http://localhost:5173/node_modules/.vite/deps/chunk-4LX4RG2H.js?v=246bc9f4:4000:23)
+    at useDefaultProps2 (http://localhost:5173/node_modules/.vite/deps/chunk-WAF2W2Z5.js?v=246bc9f4:40:10)
+    at Snackbar2 (http://localhost:5173/node_modules/.vite/deps/@mui_material_Snackbar.js?v=13c93061:531:17)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:11596:26)
+    at updateForwardRef (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:14373:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:15994:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:3705:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:3739:39)
+[ 2459300ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=246bc9f4:135
+[ 2459300ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=246bc9f4:135
+[ 2459301ms] TypeError: Cannot read properties of null (reading 'useContext')
+    at Object.useContext (http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=246bc9f4:1062:29)
+    at useDefaultProps (http://localhost:5173/node_modules/.vite/deps/chunk-4LX4RG2H.js?v=246bc9f4:4000:23)
+    at useDefaultProps2 (http://localhost:5173/node_modules/.vite/deps/chunk-WAF2W2Z5.js?v=246bc9f4:40:10)
+    at Snackbar2 (http://localhost:5173/node_modules/.vite/deps/@mui_material_Snackbar.js?v=13c93061:531:17)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:11596:26)
+    at updateForwardRef (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:14373:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:15994:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:3705:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:3739:39)
+[ 2459306ms] [ERROR] The above error occurred in the <ForwardRef(Snackbar2)> component:
+
+    at Snackbar2 (http://localhost:5173/node_modules/.vite/deps/@mui_material_Snackbar.js?v=13c93061:531:17)
+    at DevotionForm (http://localhost:5173/src/components/content/DevotionForm.tsx?t=1772680133648:42:32)
+    at div
+    at http://localhost:5173/node_modules/.vite/deps/chunk-PGFARDM7.js?v=6da1203c:683:45
+    at Paper2 (http://localhost:5173/node_modules/.vite/deps/chunk-LGIB5ZGD.js?v=6da1203c:146:17)
+    at div
+    at ContentPage (http://localhost:5173/src/pages/ContentPage.tsx?t=1772680115760:35:20)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6da1203c:6355:26)
+    at Outlet (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6da1203c:7143:26)
+    at main
+    at div
+    at AppLayout
+    at ProtectedRoute (http://localhost:5173/src/components/common/ProtectedRoute.tsx:20:34)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6da1203c:6355:26)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6da1203c:7222:3)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6da1203c:7152:13)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=6da1203c:10363:3)
+    at App (http://localhost:5173/src/App.tsx:31:20)
+    at DefaultPropsProvider (http://localhost:5173/node_modules/.vite/deps/chunk-TX5P42HC.js?v=6da1203c:3956:3)
+    at RtlProvider (http://localhost:5173/node_modules/.vite/deps/chunk-TX5P42HC.js?v=6da1203c:3932:3)
+    at ThemeProvider (http://localhost:5173/node_modules/.vite/deps/chunk-TX5P42HC.js?v=6da1203c:3888:5)
+    at ThemeProvider2 (http://localhost:5173/node_modules/.vite/deps/chunk-TX5P42HC.js?v=6da1203c:4108:5)
+    at ThemeProviderNoVars (http://localhost:5173/node_modules/.vite/deps/chunk-MGVF3BJA.js?v=6da1203c:277:10)
+    at ThemeProvider (http://localhost:5173/node_modules/.vite/deps/chunk-MGVF3BJA.js?v=6da1203c:425:3)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:14079
+[ 2459308ms] TypeError: Cannot read properties of null (reading 'useContext')
+    at Object.useContext (http://localhost:5173/node_modules/.vite/deps/chunk-RLJ2RCJQ.js?v=246bc9f4:1062:29)
+    at useDefaultProps (http://localhost:5173/node_modules/.vite/deps/chunk-4LX4RG2H.js?v=246bc9f4:4000:23)
+    at useDefaultProps2 (http://localhost:5173/node_modules/.vite/deps/chunk-WAF2W2Z5.js?v=246bc9f4:40:10)
+    at Snackbar2 (http://localhost:5173/node_modules/.vite/deps/@mui_material_Snackbar.js?v=13c93061:531:17)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:11596:26)
+    at updateForwardRef (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:14373:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:15994:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:19806:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:19251:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-KDCVS43I.js?v=6da1203c:19190:13)
+[ 2479236ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2480240ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2481242ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2505476ms] [ERROR] Failed to load resource: the server responded with a status of 409 (Conflict) @ http://localhost:5173/api/v1/todos:0
+[ 2592980ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2593988ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2594995ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2596000ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2597003ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2598007ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2599014ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2600020ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2601026ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2602033ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2603036ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2604040ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2605043ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2606047ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2607051ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2608054ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2609058ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2610066ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2611069ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2612072ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2613075ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2614079ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2615085ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2616089ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2617095ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2618101ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2619107ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2620115ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2621125ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2622146ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2623154ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2624159ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2625172ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2626192ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2627214ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2628233ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2629250ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2630279ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2631317ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2632329ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2633359ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2634385ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2635429ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2636479ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2637503ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2638551ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2639608ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2640683ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2641841ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2642951ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2644068ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2645162ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2646454ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2647542ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2648638ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2649904ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2650999ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2652271ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2653595ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2655109ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2656308ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2657487ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2659061ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2660917ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2662246ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034
+[ 2663613ms] [ERROR] WebSocket connection to 'ws://localhost:5173/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/@vite/client:1034

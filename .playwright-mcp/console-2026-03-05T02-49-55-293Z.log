@@ -1,0 +1,5 @@
+[    7486ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://encrypted-tbn3.gstatic.com/faviconV2?url=https://blog.naver.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL:0
+[ 1998163ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ http://localhost:8080/:0
+[ 1998186ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ http://localhost:8080/favicon.ico:0
+[ 2008481ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ http://localhost:8080/swagger/ui.html:0
+[ 2008486ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ http://localhost:8080/favicon.ico:0

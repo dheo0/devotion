@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gradle wrapper:*)",
+      "Bash(./gradlew build:*)",
+      "Bash(java:*)",
+      "Bash(./gradlew:*)",
+      "Bash(JAVA_HOME=/Users/daeyoungoh/Library/Java/JavaVirtualMachines/openjdk-22.0.2/Contents/Home ./gradlew build:*)",
+      "Bash(JAVA_HOME=/Users/daeyoungoh/Library/Java/JavaVirtualMachines/openjdk-22.0.2/Contents/Home ./gradlew resolveMainClassName:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(chmod +x:*)",
+      "Bash(./start.sh:*)",
+      "Bash(source:*)",
+      "Bash(./stop.sh:*)",
+      "Bash(curl:*)",
+      "Bash(lsof:*)",
+      "mcp__playwright__browser_navigate",
+      "Bash(npx tsc:*)",
+      "mcp__playwright__browser_handle_dialog",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_fill_form",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_evaluate",
+      "Bash(python3:*)",
+      "Bash(git:*)"
+    ]
+  }
+}
