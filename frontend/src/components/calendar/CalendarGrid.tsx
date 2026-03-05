@@ -17,7 +17,7 @@ export const CalendarGrid = ({
   devotions,
   today,
 }: CalendarGridProps) => {
-  const devotionMap = new Map(devotions.map((d) => [d.date, d]))
+  const devotionMap = new Map((devotions ?? []).map((d) => [d.date, d]))
   const currentMonth = daysInMonth[0]?.getMonth()
 
   const emptyCells = Array.from({ length: startDayOfWeek })

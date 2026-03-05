@@ -39,7 +39,7 @@ export const AdminPage = () => {
   useEffect(() => {
     apiClient
       .get<ApiResponse<AdminUser[]>>('/api/v1/admin/users')
-      .then(({ data }) => setUsers(data.data))
+      .then(({ data }) => setUsers(data.data ?? []))
       .catch(() => setError('유저 목록을 불러오지 못했습니다'))
       .finally(() => setIsFetching(false))
   }, [])

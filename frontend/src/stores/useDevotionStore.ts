@@ -32,7 +32,7 @@ export const useDevotionStore = create<DevotionState>((set, get) => ({
       const { data } = await apiClient.get<ApiResponse<Devotion[]>>(
         `/api/v1/todos?yearMonth=${yearMonth}`,
       )
-      set({ devotions: data.data })
+      set({ devotions: data.data ?? [] })
     } catch (e) {
       set({ error: '목록을 불러오지 못했습니다' })
     } finally {
