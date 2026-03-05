@@ -4,10 +4,20 @@ import { supabase } from '../utils/supabase'
 import type { AuthResponse, LoginRequest, SignupRequest } from '../types/auth'
 import type { ApiResponse } from '../types/devotion'
 
+function isTokenExpired(token: string): boolean {
+  try {
+    const payload = JSON.parse(atob(token.split('.')[1]))
+    return payload.exp * 1000 < Date.now()
+  } catch {
+    return true
+  }
+}
+
 interface AuthState {
   userId: string | null
   email: string | null
   isAuthenticated: boolean
+  isInitializing: boolean
   isLoading: boolean
   isAdmin: boolean
   login: (request: LoginRequest) => Promise<void>
@@ -15,30 +25,22 @@ interface AuthState {
   loginWithProvider: (provider: 'google' | 'kakao') => Promise<void>
   logout: () => void
   initAuth: () => Promise<void>
-  checkAdmin: () => Promise<void>
 }
 
 export const useAuthStore = create<AuthState>((set) => ({
   userId: null,
   email: null,
   isAuthenticated: false,
+  isInitializing: true,
   isLoading: false,
   isAdmin: false,
-
-  checkAdmin: async () => {
-    try {
-      const { data } = await apiClient.get<ApiResponse<{ isAdmin: boolean }>>('/api/v1/admin/check')
-      set({ isAdmin: data.data.isAdmin })
-    } catch {
-      set({ isAdmin: false })
-    }
-  },
 
   initAuth: async () => {
     const token = localStorage.getItem('accessToken')
     const userId = localStorage.getItem('userId')
     const email = localStorage.getItem('email')
-    if (token && userId && email) {
+
+    if (token && userId && email && !isTokenExpired(token)) {
       set({ userId, email, isAuthenticated: true })
       try {
         const { data } = await apiClient.get<ApiResponse<{ isAdmin: boolean }>>('/api/v1/admin/check')
@@ -46,7 +48,14 @@ export const useAuthStore = create<AuthState>((set) => ({
       } catch {
         set({ isAdmin: false })
       }
+    } else if (token && isTokenExpired(token)) {
+      localStorage.removeItem('accessToken')
+      localStorage.removeItem('refreshToken')
+      localStorage.removeItem('userId')
+      localStorage.removeItem('email')
     }
+
+    set({ isInitializing: false })
   },
 
   login: async (request) => {
