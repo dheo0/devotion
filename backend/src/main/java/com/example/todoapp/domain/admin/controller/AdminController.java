@@ -1,6 +1,7 @@
 package com.example.todoapp.domain.admin.controller;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +16,6 @@ import com.example.todoapp.domain.admin.dto.BulkDevotionRequest;
 import com.example.todoapp.domain.admin.dto.BulkDevotionResult;
 import com.example.todoapp.domain.admin.service.AdminService;
 import com.example.todoapp.global.common.ApiResponse;
-import com.example.todoapp.global.config.AdminProperties;
 import com.example.todoapp.global.exception.UnauthorizedException;
 
 import io.swagger.v3.oas.annotations.Operation;
@@ -31,7 +31,14 @@ import lombok.RequiredArgsConstructor;
 public class AdminController {
 
     private final AdminService adminService;
-    private final AdminProperties adminProperties;
+
+    @GetMapping("/check")
+    @Operation(summary = "관리자 여부 확인")
+    public ResponseEntity<ApiResponse<Map<String, Boolean>>> checkAdminStatus(HttpServletRequest request) {
+        String userId = (String) request.getAttribute("userId");
+        boolean isAdmin = adminService.isAdmin(userId);
+        return ResponseEntity.ok(ApiResponse.ok(Map.of("isAdmin", isAdmin)));
+    }
 
     @GetMapping("/users")
     @Operation(summary = "전체 유저 목록 조회")
@@ -51,8 +58,8 @@ public class AdminController {
     }
 
     private void checkAdmin(HttpServletRequest request) {
-        String email = (String) request.getAttribute("email");
-        if (!adminProperties.userId().equals(email)) {
+        String userId = (String) request.getAttribute("userId");
+        if (!adminService.isAdmin(userId)) {
             throw new UnauthorizedException("관리자 권한이 필요합니다");
         }
     }

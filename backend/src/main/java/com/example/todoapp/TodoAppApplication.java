@@ -4,11 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-import com.example.todoapp.global.config.AdminProperties;
 import com.example.todoapp.global.config.SupabaseProperties;
 
 @SpringBootApplication
-@EnableConfigurationProperties({ SupabaseProperties.class, AdminProperties.class })
+@EnableConfigurationProperties({ SupabaseProperties.class })
 public class TodoAppApplication {
 
     public static void main(String[] args) {

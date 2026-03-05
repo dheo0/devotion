@@ -9,11 +9,13 @@ interface AuthState {
   email: string | null
   isAuthenticated: boolean
   isLoading: boolean
+  isAdmin: boolean
   login: (request: LoginRequest) => Promise<void>
   signup: (request: SignupRequest) => Promise<void>
   loginWithProvider: (provider: 'google' | 'kakao') => Promise<void>
   logout: () => void
-  initAuth: () => void
+  initAuth: () => Promise<void>
+  checkAdmin: () => Promise<void>
 }
 
 export const useAuthStore = create<AuthState>((set) => ({
@@ -21,13 +23,29 @@ export const useAuthStore = create<AuthState>((set) => ({
   email: null,
   isAuthenticated: false,
   isLoading: false,
+  isAdmin: false,
 
-  initAuth: () => {
+  checkAdmin: async () => {
+    try {
+      const { data } = await apiClient.get<ApiResponse<{ isAdmin: boolean }>>('/api/v1/admin/check')
+      set({ isAdmin: data.data.isAdmin })
+    } catch {
+      set({ isAdmin: false })
+    }
+  },
+
+  initAuth: async () => {
     const token = localStorage.getItem('accessToken')
     const userId = localStorage.getItem('userId')
     const email = localStorage.getItem('email')
     if (token && userId && email) {
       set({ userId, email, isAuthenticated: true })
+      try {
+        const { data } = await apiClient.get<ApiResponse<{ isAdmin: boolean }>>('/api/v1/admin/check')
+        set({ isAdmin: data.data.isAdmin })
+      } catch {
+        set({ isAdmin: false })
+      }
     }
   },
 
@@ -44,6 +62,12 @@ export const useAuthStore = create<AuthState>((set) => ({
       localStorage.setItem('userId', userId)
       localStorage.setItem('email', email)
       set({ userId, email, isAuthenticated: true })
+      try {
+        const adminRes = await apiClient.get<ApiResponse<{ isAdmin: boolean }>>('/api/v1/admin/check')
+        set({ isAdmin: adminRes.data.data.isAdmin })
+      } catch {
+        set({ isAdmin: false })
+      }
     } finally {
       set({ isLoading: false })
     }
@@ -61,7 +85,7 @@ export const useAuthStore = create<AuthState>((set) => ({
       localStorage.setItem('refreshToken', refreshToken)
       localStorage.setItem('userId', userId)
       localStorage.setItem('email', email)
-      set({ userId, email, isAuthenticated: true })
+      set({ userId, email, isAuthenticated: true, isAdmin: false })
     } finally {
       set({ isLoading: false })
     }
@@ -81,6 +105,6 @@ export const useAuthStore = create<AuthState>((set) => ({
     localStorage.removeItem('refreshToken')
     localStorage.removeItem('userId')
     localStorage.removeItem('email')
-    set({ userId: null, email: null, isAuthenticated: false })
+    set({ userId: null, email: null, isAuthenticated: false, isAdmin: false })
   },
 }))

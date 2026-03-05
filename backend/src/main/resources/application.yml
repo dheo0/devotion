@@ -7,10 +7,6 @@ supabase:
   anon-key: ${SUPABASE_ANON_KEY}
   jwt-secret: ${SUPABASE_JWT_SECRET}
 
-admin:
-  user-id: ${ADMIN_USER_ID}
-
-
 springdoc:
   swagger-ui:
     path: /swagger-ui.html

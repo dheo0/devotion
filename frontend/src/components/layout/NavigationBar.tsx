@@ -16,9 +16,8 @@ export const NavigationBar = () => {
   const navigate = useNavigate()
   const location = useLocation()
   const logout = useAuthStore((s) => s.logout)
-  const email = useAuthStore((s) => s.email)
+  const isAdmin = useAuthStore((s) => s.isAdmin)
   const clearCurrent = useDevotionStore((s) => s.clearCurrent)
-  const isAdmin = !!import.meta.env.VITE_ADMIN_USER_ID && email === import.meta.env.VITE_ADMIN_USER_ID
 
   const tabValue = location.pathname.startsWith('/list') ? 1 : 0
 

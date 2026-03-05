@@ -31,6 +31,17 @@ public class AdminService {
 
     private static final String TABLE = "/rest/v1/devotion_todos";
 
+    private static final String ADMINS_TABLE = "/rest/v1/admins";
+
+    @SuppressWarnings("rawtypes")
+    public boolean isAdmin(String userId) {
+        String url = supabaseProperties.url() + ADMINS_TABLE + "?user_id=eq." + userId + "&select=user_id";
+        HttpEntity<Void> entity = new HttpEntity<>(buildHeaders());
+        ResponseEntity<java.util.List> response = restTemplate.exchange(url, HttpMethod.GET, entity, java.util.List.class);
+        java.util.List<?> body = response.getBody();
+        return body != null && !body.isEmpty();
+    }
+
     public List<AdminUserResponse> getUsers() {
         String url = supabaseProperties.url() + "/auth/v1/admin/users?per_page=200";
 
